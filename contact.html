@@ -5,41 +5,55 @@
 </head>
 <body>
   <header>
-    <img src="images/4.jpg">
-    <nav>
-    <ul>
-      <li><a href="CV.html">CV</a></li>
-      <li><a href="Bio.html">Biography</a></li>
-      <li><a href="contact.html">Contact me</a></li>
-      <li><a href="index.html">Home</a></li>
-    </ul>
-  </nav>
-</header>
+    <div class="logo"><img src="images/logo.jpg" class="logoimg"></div>
+    <div class="menubar">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="bio.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="CV.html">CV</a></li>
+      </ul>
+    </div>
+  </header>
 <section>
+  <div class="up">
+    <img src="images/4.jpg"  class="contactimage">
+  </div>
   <div class="contact">
     <h1>My contact Information</h1>
-      Panipokhari,Kathmandu<br>
+      Name : Arose Kumar Tamang<br>
+      Address : Panipokhari,Kathmandu<br>
       Phone : 9800000000<br>
       E-mail: aarosetamang@gmail.com
     </fieldset><br><br>
     <form action="thankyou.html" method="get">
       <fieldset>
         <legend>Contact Form</legend>
-        <label>First Name</label>
+        <label>First Name</label><br>
         <input type="text" name="firstname" placeholder="First Name"><br><br>
 
-        <label>Last Name</label>
+        <label>Last Name</label><br>
         <input type="text" name="lastname" placeholder="Last Name"><br><br>
 
-        <label>Gender</label>
+        <label>Gender</label><br>
         <input type="radio" name="gender" value="male">Male
         <input type="radio" name="gender" value="female">Female
         <br><br>
-        <label>Birthdate</label>
+        <label>Birthdate</label><br>
         <input type="date" name="day">
         <br><br>
-        Subject<br>
-        <textarea rows="10" cols="50" placeholder="enter your thoughts.."></textarea><br><br>
+        <label>Faculty</label><br>
+        <select>
+          <option value="BBA">BBA</option>
+          <option value="MBA">MBA</option>
+          <option value="Computing">Computing</option>
+          <option value="ALevels">A-Levels</option>
+          <option value="Teachers">Teachers</option>
+          <option value="other">Please specify below</option>
+        </select><br><br>
+        <label>Subject</label><br>
+        <br>
+        <textarea rows="10" cols="45" placeholder="enter your thoughts.."></textarea><br><br>
         <input type="submit" value="Submit">
       </fieldset>
     </form>
@@ -48,12 +62,14 @@
   </header>
 
   <footer>
-    <div class="social_media_logos">
-      <a href="https://www.facebook.com/arose_tamang"><img src="images/facebook.png" title="FaceBook">
-      <a href="https://www.twitter.com/arose_tamang"><img src="images/twitter.jpg" title="Twitter">
-      <a href="https://www.instagram.com/arose_tamang"><img src="images/instagram.jpg" title="Instagram">
-      </div>
-    Copyright&copy &#124 aarosetamang@gmail.com
+    <div class="para">
+      Copyright&copy; Arose Tamang | 2017
+    </div>
+    <div class="socialmd">
+      <a href="#"><div class="md"><img src="images/fb.jpg"></div></a>
+      <a href="#"><div class="md"><img src="images/tt.jpg"></div></a>
+      <a href="#"><div class="md"><img src="images/google.jpg"></div></a>
+    </div>
   </footer>
 </body>
 </html>

@@ -1,12 +1,15 @@
+/*Name : Arose Kumar Tamang
+UN ID : 17421477*/
+
 body{
   font-style: italic;
   background: linear-gradient(to left, #4b6cb7, #182848);
 }
 
-
 nav{
-  width:60%;
+  width:80%;
 }
+
 nav ul{
   display: flex;
   flex-direction: row-reverse;
@@ -17,6 +20,7 @@ nav ul{
    list-style: none;
    height: 3em;
  }
+
 nav ul li a{
   color: #b8b8b8;
   text-decoration: none;
@@ -27,7 +31,9 @@ nav ul li a{
   background: #182848;
   width: 200px;
   height: 150px;
+  margin: 0 30px;
 }
+
 nav ul li a:hover{
 
 }
